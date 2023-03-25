@@ -4,7 +4,7 @@ from django.db import models
 class Parts(models.Model):
     internal_pn = models.CharField(max_length=30)
     manufacturing_pn = models.CharField(max_length=30)
-    description = models.CharField()
+    description = models.CharField(max_length=200)
     weight = models.DecimalField(..., max_digits=7, decimal_places=3, null=True)
 
     class Routing(models.Choices):
