@@ -9,3 +9,6 @@ class Release(models.Model):
     requested_completion_date = models.DateField()
     priority = models.IntegerField(default=-1)
     release_date = models.DateField()
+
+    class Meta:
+        verbose_name = "Release"

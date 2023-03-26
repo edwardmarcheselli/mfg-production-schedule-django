@@ -4,3 +4,6 @@ from django.db import models
 class Projects(models.Model):
     project_name = models.CharField(max_length=30)
     project_num = models.CharField(max_length=30)
+
+    class Meta:
+        verbose_name = "Project"

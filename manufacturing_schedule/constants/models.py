@@ -10,3 +10,6 @@ class ConstantVals(models.Model):
     press_hr_price = models.DecimalField(max_digits=5, decimal_places=2)
     paint_hr_price = models.DecimalField(max_digits=5, decimal_places=2)
     post_date = models.DateField()
+
+    class Meta:
+        verbose_name = "Constant"
