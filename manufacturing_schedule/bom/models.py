@@ -5,7 +5,7 @@ class Parts(models.Model):
     internal_pn = models.CharField(max_length=30)
     manufacturing_pn = models.CharField(max_length=30)
     description = models.CharField(max_length=200)
-    weight = models.DecimalField(..., max_digits=7, decimal_places=3, null=True)
+    weight = models.DecimalField(max_digits=7, decimal_places=3, null=True)
 
     class Routing(models.Choices):
         LASER = 1
@@ -27,9 +27,9 @@ class LineItemPart(models.Model):
     qty = models.IntegerField()
     assembly_address = models.ForeignKey(Parts,on_delete=models.CASCADE, related_name="assembly_part", null=True)
     is_complete = models.BooleanField(default=False)
-    calc_cost = models.DecimalField(..., max_digits=9, decimal_places=3, null=True)
+    calc_cost = models.DecimalField(max_digits=9, decimal_places=3, null=True)
 
 class BOM(models.Model):
     line_items = models.ManyToManyField(LineItemPart, related_name="line_item_parts")
-    calc_cost = models.DecimalField(..., max_digits=9, decimal_places=3, null=True)
+    calc_cost = models.DecimalField(max_digits=9, decimal_places=3, null=True)
     calc_date = models.DateField()
