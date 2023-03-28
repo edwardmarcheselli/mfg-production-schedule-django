@@ -41,6 +41,7 @@ class LineItemPart(models.Model):
         verbose_name = "BOM Line Item"
 
 class BOM(models.Model):
+    bom_name = models.CharField(max_length=30, null=True)
     line_items = models.ManyToManyField(LineItemPart, related_name="line_item_parts")
     calc_cost = models.DecimalField(max_digits=9, decimal_places=3, null=True)
     calc_date = models.DateField()

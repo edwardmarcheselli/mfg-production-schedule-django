@@ -1,0 +1,8 @@
+{% extends 'partials/index.html' %}
+{% block content %}
+<form class="mx-auto my-2"  enctype="multipart/form-data" method="POST">
+    {% csrf_token %}
+    {{ form}}
+    <button type="submit" class="btn btn-warning mt-2">Submit</button>
+</form>
+{% endblock %}
