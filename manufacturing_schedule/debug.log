@@ -1,0 +1,95 @@
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1713
+"GET /bom_upload/ HTTP/1.1" 200 2355
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\bom\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /bom_upload/ HTTP/1.1" 200 7
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\bom\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\bom\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\bom\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\bom\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\bom\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /bom_upload/ HTTP/1.1" 200 2355
+"POST /bom_upload/ HTTP/1.1" 200 7
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\bom\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\bom\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\bom\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\bom\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\bom\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\bom\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\bom\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\bom\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /bom_upload/ HTTP/1.1" 200 2355
+"POST /bom_upload/ HTTP/1.1" 200 7
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2215
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/login.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 7956
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /admin/bom/bom/ HTTP/1.1" 200 7233
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /admin/bom/lineitempart/ HTTP/1.1" 200 7301
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/bom/parts/ HTTP/1.1" 200 7282
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Watching for file changes with StatReloader
+"GET /admin/bom/lineitempart/ HTTP/1.1" 200 7301
+"GET /admin/bom/bom/ HTTP/1.1" 200 7233
+"GET /admin/ HTTP/1.1" 200 7956
+"GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 7956
+"GET /bom_upload/ HTTP/1.1" 200 2355
+"POST /bom_upload/ HTTP/1.1" 200 7
+"GET /admin/ HTTP/1.1" 200 7956
+"GET /admin/bom/bom/ HTTP/1.1" 200 8375
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/bom/bom/1/change/ HTTP/1.1" 200 10476
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+"GET /admin/bom/lineitempart/ HTTP/1.1" 200 9160
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/bom/parts/ HTTP/1.1" 200 9024
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/bom/parts/1/change/ HTTP/1.1" 200 13773
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
