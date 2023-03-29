@@ -1,0 +1,31 @@
+address,internal_pn,mfg_pn,description,qty,weight,color,vend1,cost1,vend2,cost2,vend3,cost3,route1,route2,route3,route4,type
+1,EM-101123,12ab345c2,bolt,1,5,,McMaster,5,Mouser,14,Arrow,10,LASER,WELD,NA,,ASSEM
+2,EM-101122,12ab345c3,screw,3,4,,Mouser,20,Mouser,25,Arrow,15,PRESS,NA,NA,,ASSEM
+3,EM-101121,12ab345c4,motor,5,3,,3M,4,Mouser,34,Arrow,25,CUT,WELD,PAINT,,ASSEM
+4,EM-101120,12ab345c5,wire,10,5,,Grainger,35,Mouser,12,Arrow,35,CUT,PAINT,NA,,ASSEM
+5,EM-101119,12ab345c6,bracket,23,4,,Fastenal,67,Mouser,15,Arrow,12,MACHINE,PAINT,NA,,ASSEM
+1.1,EM-101118,12ab345c7,servo,15,8,,McMaster,25,Hydradyne,23,Arrow,38,LASER,WELD,NA,,SUB_ASSEM
+1.2,EM-101117,12ab345c8,point io,4,9,,McMaster,22,Hydradyne,45,Arrow,22,PRESS,NA,NA,,SUB_ASSEM
+1.3,EM-101116,12ab345c9,bolt,56,10,,McMaster,10,Hydradyne,23,Arrow,24,CUT,WELD,PAINT,,SUB_ASSEM
+2.1,EM-101115,15ab344c1,screw,3,6,,McMaster,15,Hydradyne,28,Arrow,11,CUT,PAINT,NA,,SUB_ASSEM
+2.2,EM-101114,15ab344c2,motor,67,5,,McMaster,34,Hydradyne,30,Arrow,16,MACHINE,PAINT,NA,,SUB_ASSEM
+3.1,EM-101113,15ab344c3,wire,8,4,,McMaster,15,Hydradyne,15,Arrow,26,LASER,WELD,NA,,SUB_ASSEM
+4.1,EM-101112,15ab344c4,bracket,9,6,,McMaster,45,LittleFuse,26,TTI,36,PRESS,NA,NA,,SUB_ASSEM
+4.2,EM-101111,15ab344c5,servo,25,5,,McMaster,23,LittleFuse,35,TTI,13,CUT,WELD,PAINT,,SUB_ASSEM
+4.3,EM-101110,15ab344c6,point io,34,9,,McMaster,11,LittleFuse,13,TTI,39,CUT,PAINT,NA,,SUB_ASSEM
+5.1,EM-101109,15ab344c7,bolt,12,10,,McMaster,16,LittleFuse,16,TTI,23,MACHINE,PAINT,NA,,SUB_ASSEM
+6,EM-101108,15ab344c8,screw,54,11,,Grainger,35,LittleFuse,24,TTI,25,LASER,WELD,NA,,MFG
+7,EM-101107,15ab344c9,motor,90,7,,Grainger,16,LittleFuse,46,TTI,12,PRESS,NA,NA,,MFG
+8,EM-101106,15ab344c10,wire,7,6,,LittleFuse,23,Grainger,24,TTI,17,CUT,WELD,PAINT,,MFG
+9,EM-101105,15ab344c11,bracket,9,5,RAL5,Company,11,,,,,CUT,PAINT,NA,,MFG
+10,EM-101104,15ab344c12,servo,5,7,RAL6,Company,16,,,,,MACHINE,PAINT,NA,,MFG
+11,EM-101103,10ab235c1,point io,20,6,RAL7,Company,35,,,,,LASER,WELD,NA,,MFG
+12,EM-101102,10ab235c2,bolt,3,10,RAL8,Company,16,,,,,PRESS,NA,NA,,MFG
+13,EM-101101,10ab235c3,screw,4,11,RAL9,Company,46,,,,,CUT,WELD,PAINT,,MFG
+14,EM-101100,10ab235c4,motor,90,12,,LittleFuse,24,Grainger,14,Digi-Key,26,NA,NA,NA,,PUR
+15,EM-101099,10ab235c5,wire,12,8,,LittleFuse,12,Mouser,17,Digi-Key,13,NA,NA,NA,,PUR
+16,EM-101098,10ab235c6,bracket,45,7,,Rockwell,17,Mouser,25,Digi-Key,18,NA,NA,NA,,PUR
+17,EM-101097,10ab235c7,servo,89,6,,Rockwell,23,Mouser,47,Digi-Key,28,NA,NA,NA,,PUR
+18,EM-101096,10ab235c8,point io,12,8,,3M,11,Mouser,25,Digi-Key,38,NA,NA,NA,,PUR
+19,EM-101095,10ab235c9,bolt,14,7,,3M,16,Mouser,30,Digi-Key,15,NA,NA,NA,,PUR
+20,EM-101094,10ab235c10,screw,5,11,,Mouser,35,Mouser,32,Digi-Key,41,NA,NA,NA,,PUR

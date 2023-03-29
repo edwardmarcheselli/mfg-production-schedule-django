@@ -6,6 +6,7 @@ class Parts(models.Model):
     manufacturing_pn = models.CharField(max_length=30, null=True)
     description = models.CharField(max_length=200, null=True)
     weight = models.DecimalField(max_digits=7, decimal_places=3, null=True, blank=True)
+    color = models.CharField(max_length=30, null=True, blank=True)
 
     class Routing(models.Choices):
         LASER = 1
@@ -19,7 +20,19 @@ class Parts(models.Model):
     routing2 = models.IntegerField(choices=Routing.choices, null=True, blank=True)
     routing3 = models.IntegerField(choices=Routing.choices, null=True, blank=True)
     routing4 = models.IntegerField(choices=Routing.choices, null=True, blank=True)
-    color = models.CharField(max_length=30, null=True, blank=True)
+    
+    vendor1 = models.CharField(max_length=30, null=True)
+    cost1 = models.DecimalField(max_digits=9, decimal_places=3, null=True, blank=True)
+    is_active_vendor1 = models.BooleanField(default=False)
+
+    vendor2 = models.CharField(max_length=30, null=True)
+    cost2 = models.DecimalField(max_digits=9, decimal_places=3, null=True, blank=True)
+    is_active_vendor2 = models.BooleanField(default=False)
+
+    vendor3 = models.CharField(max_length=30, null=True)
+    cost3 = models.DecimalField(max_digits=9, decimal_places=3, null=True, blank=True)
+    is_active_vendor3 = models.BooleanField(default=False)
+
     is_assembly = models.BooleanField(default=False)
     is_purchased = models.BooleanField(default=False)
 
@@ -39,12 +52,17 @@ class LineItemPart(models.Model):
 
     class Meta:
         verbose_name = "BOM Line Item"
+    
+    def __str__(self):
+        return 'ID:' + str(self.pk) + ' ' + ' | ' + str(self.line_item_part) + ' - ' + 'qty: ' + str(self.qty)
 
 class BOM(models.Model):
     bom_name = models.CharField(max_length=30, null=True)
     line_items = models.ManyToManyField(LineItemPart, related_name="line_item_parts")
     calc_cost = models.DecimalField(max_digits=9, decimal_places=3, null=True)
-    calc_date = models.DateField(null=True)
 
     class Meta:
         verbose_name = "BOM"
+
+    def __str__(self):
+        return self.bom_name
