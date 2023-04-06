@@ -1,12 +1,12 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-        <a class="navbar-brand siteText" id="nameLogoSize"href="#">Logo</a>
+        <a class="navbar-brand siteText" id="nameLogoSize"href="{% url 'schedule:schedule_display'%}">Logo</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto align-items-center">
-            <a class="nav-link active" id="projectLink" aria-current="page" href="#">Lorem</a>
+            <a class="nav-link active" id="projectLink" aria-current="page" href="{% url 'bom:bom_upload'%}">Create BOM</a>
             <a class="nav-link active" id="experienceLink" aria-current="page" href="#">Lorem</a>
             <a class="nav-link active" id="aboutLink" aria-current="page" href="#">Lorem</a>
         </div>

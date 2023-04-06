@@ -46,7 +46,7 @@ class Parts(models.Model):
 class LineItemPart(models.Model):
     line_item_part = models.ForeignKey(Parts, on_delete=models.CASCADE, related_name="parts")
     qty = models.IntegerField(null=True)
-    assembly_address = models.ForeignKey(Parts,on_delete=models.CASCADE, related_name="assembly_part", null=True)
+    assembly_address = models.ForeignKey('self',on_delete=models.CASCADE, related_name="assembly_part", null=True)
     is_complete = models.BooleanField(default=False)
     calc_cost = models.DecimalField(max_digits=9, decimal_places=3, null=True, blank=True)
 
