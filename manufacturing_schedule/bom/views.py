@@ -35,9 +35,11 @@ def indented_bom_assembly(address_book):
 
 	for key in address_book:
 		parent_addr = key.split('.')
+		#checks do see that address has an up stream assembly address
 		if (len(parent_addr) > 1):
 			parent_addr.pop()
 			parent_addr = '.'.join(parent_addr)
+			#passes in all of the items in the bom and the parent address to then find the parent part
 			filtered = dict(filter(lambda items: add_match(items, parent_addr),  address_book.items()))
 			for i in filtered:
 				inst = LineItemPart.objects.get(pk = address_book[key])

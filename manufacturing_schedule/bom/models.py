@@ -48,9 +48,9 @@ class Parts(models.Model):
 
 
 class LineItemPart(models.Model):
-    line_item_part = models.ForeignKey(Parts, on_delete=models.CASCADE, related_name="parts")
+    line_item_part = models.ForeignKey(Parts, on_delete=models.CASCADE, related_name="lineitem_parts")
     qty = models.IntegerField(null=True)
-    assembly_address = models.ForeignKey('self',on_delete=models.CASCADE, related_name="assembly_part", null=True)
+    assembly_address = models.ForeignKey('self',on_delete=models.CASCADE, related_name="lineitem_assembly_part", null=True)
     is_complete = models.BooleanField(default=False)
     calc_cost = models.DecimalField(max_digits=9, decimal_places=3, null=True, blank=True)
 
@@ -62,7 +62,7 @@ class LineItemPart(models.Model):
 
 class BOM(models.Model):
     bom_name = models.CharField(max_length=30, null=True)
-    line_items = models.ManyToManyField(LineItemPart, related_name="line_item_parts")
+    line_items = models.ManyToManyField(LineItemPart, related_name="bom_line_item_parts")
     calc_cost = models.DecimalField(max_digits=9, decimal_places=3, null=True)
 
     class Meta:

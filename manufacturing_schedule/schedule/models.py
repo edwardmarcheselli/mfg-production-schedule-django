@@ -1,15 +1,15 @@
 from django.db import models
-from bom.models import BOM
 from projects.models import Projects
-from bom.models import Parts
+from bom.models import BOM, LineItemPart, Parts
 
 # Create your models here.
 class Release(models.Model):
-    bom = models.ForeignKey(BOM, on_delete=models.CASCADE, related_name="boms")
-    project = models.ForeignKey(Projects, on_delete=models.CASCADE, related_name="projects", null=True)
+    bom = models.ForeignKey(BOM, on_delete=models.CASCADE, related_name="release_bom")
+    project = models.ForeignKey(Projects, on_delete=models.CASCADE, related_name="release_project", null=True)
     requested_completion_date = models.DateField()
     priority = models.IntegerField(default=-1)
     release_date = models.DateTimeField(auto_now_add=True)
+    scheduled = models.BooleanField(default=False)
 
     class Meta:
         verbose_name = "Release"
@@ -18,7 +18,9 @@ class Release(models.Model):
         return str(self.bom) + ' - ' + str(self.release_date) + ' - ' + str(self.priority)
 
 class ScheduleItems(models.Model):
-    part = models.ForeignKey(Parts,  on_delete=models.CASCADE, related_name="schedule_parts")
+    schedule_part = models.ForeignKey(Parts,  on_delete=models.CASCADE, related_name="schedule_parts", null=True)
+    schedule_line_Item = models.ForeignKey(LineItemPart,  on_delete=models.CASCADE, related_name="schedule_lineitems", null=True)
+    schedule_release = models.ForeignKey(Release,  on_delete=models.CASCADE, related_name="schedule_releases", null=True)
 
     class Routing(models.Choices):
         LASER = 1
