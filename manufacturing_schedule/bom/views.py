@@ -46,11 +46,7 @@ def indented_bom_assembly(address_book):
 				inst.save()
 		else:
 			pass
-
-
-
-
-
+		
 
 def handle_uploaded_file(csv_file, form_data):
 	name = form_data['title']

@@ -17,9 +17,13 @@ class Parts(models.Model):
         PAINT = 6
 
     routing1 = models.IntegerField(choices=Routing.choices, null=True, blank=True)
+    routing1_time = models.IntegerField(null=True, blank=True)
     routing2 = models.IntegerField(choices=Routing.choices, null=True, blank=True)
+    routing2_time = models.IntegerField(null=True, blank=True)
     routing3 = models.IntegerField(choices=Routing.choices, null=True, blank=True)
+    routing3_time = models.IntegerField(null=True, blank=True)
     routing4 = models.IntegerField(choices=Routing.choices, null=True, blank=True)
+    routing4_time = models.IntegerField(null=True, blank=True)
     
     vendor1 = models.CharField(max_length=30, null=True)
     cost1 = models.DecimalField(max_digits=9, decimal_places=3, null=True, blank=True)
