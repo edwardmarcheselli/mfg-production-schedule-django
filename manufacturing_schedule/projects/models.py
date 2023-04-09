@@ -7,3 +7,6 @@ class Projects(models.Model):
 
     class Meta:
         verbose_name = "Project"
+
+    def __str__(self):
+        return str(self.project_num) + ' - ' + str(self.project_name)

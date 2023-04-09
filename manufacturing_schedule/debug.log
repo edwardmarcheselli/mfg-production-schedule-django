@@ -2113,3 +2113,140 @@ C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-
 Watching for file changes with StatReloader
 C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\models.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1733
+"GET /admin/ HTTP/1.1" 200 9867
+"GET /admin/schedule/release/ HTTP/1.1" 200 8997
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /bom/bom_upload/ HTTP/1.1" 200 2803
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/schedule/release/ HTTP/1.1" 200 8979
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /bom/bom_upload/ HTTP/1.1" 200 2827
+"GET /create_release/ HTTP/1.1" 200 3765
+"GET /bom/bom_upload/ HTTP/1.1" 200 2827
+"GET /create_release/ HTTP/1.1" 200 3765
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\projects\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\projects\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/schedule/release/ HTTP/1.1" 200 8979
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /create_release/ HTTP/1.1" 200 3777
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /create_release/
+Traceback (most recent call last):
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 15, in create_release
+    priority_recalc()
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 29, in priority_recalc
+    releases = Release.objects.get()
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\db\models\query.py", line 653, in get
+    raise self.model.MultipleObjectsReturned(
+schedule.models.Release.MultipleObjectsReturned: get() returned more than one Release -- it returned 3!
+"POST /create_release/ HTTP/1.1" 500 93414
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /create_release/
+Traceback (most recent call last):
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 15, in create_release
+    priority_recalc()
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 30, in priority_recalc
+    releases.sort(key=num_priority)
+AttributeError: 'QuerySet' object has no attribute 'sort'
+"POST /create_release/ HTTP/1.1" 500 84644
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /create_release/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 1757
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /create_release/ HTTP/1.1" 200 3777
+"POST /create_release/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 1757
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /create_release/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 1757
+Watching for file changes with StatReloader
+"GET /admin/schedule/release/ HTTP/1.1" 200 10222
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/schedule/release/ HTTP/1.1" 200 8710
+"GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+"POST /admin/schedule/release/ HTTP/1.1" 302 0
+"GET /admin/schedule/release/ HTTP/1.1" 200 7730
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /bom/bom_upload/ HTTP/1.1" 200 2827
+"GET /create_release/ HTTP/1.1" 200 3777
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /create_release/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 1757
+"GET /create_release/ HTTP/1.1" 200 3777
+"POST /create_release/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 1757
+"GET /create_release/ HTTP/1.1" 200 3777
+"POST /create_release/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 1757
+"GET /create_release/ HTTP/1.1" 200 3777
+"POST /create_release/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 1757
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /create_release/ HTTP/1.1" 200 3777
+"POST /create_release/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 1757
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /create_release/ HTTP/1.1" 200 3777
+"POST /create_release/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 1757
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /create_release/ HTTP/1.1" 200 3777
+"POST /create_release/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 1757
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /create_release/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 1757
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/schedule/release/ HTTP/1.1" 200 10534
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /create_release/ HTTP/1.1" 200 3777
+"POST /create_release/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 1757
+"GET /admin/schedule/release/ HTTP/1.1" 200 10781
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader

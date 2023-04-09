@@ -9,10 +9,13 @@ class Release(models.Model):
     project = models.ForeignKey(Projects, on_delete=models.CASCADE, related_name="projects", null=True)
     requested_completion_date = models.DateField()
     priority = models.IntegerField(default=-1)
-    release_date = models.DateField(auto_now_add=True)
+    release_date = models.DateTimeField(auto_now_add=True)
 
     class Meta:
         verbose_name = "Release"
+
+    def __str__(self):
+        return str(self.bom) + ' - ' + str(self.release_date) + ' - ' + str(self.priority)
 
 class ScheduleItems(models.Model):
     part = models.ForeignKey(Parts,  on_delete=models.CASCADE, related_name="schedule_parts")
