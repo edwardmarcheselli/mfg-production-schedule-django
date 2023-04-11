@@ -141,25 +141,28 @@ def run_scheduling_routine(former_route, route, route_type, route_time, part, li
     elif route_type == 6:
         max_day_work_capacity = constants.paint_max_work
 
-    def is_in_date(day_route_item):
-        if day_route_item.work_date_time == d:
-            return True
+    def filter_route_work_for_day(d):
+        def is_in_date(day_route_item):
+            if day_route_item.work_date_time == d:
+                return True
 
-    all_items_in_route_type =  list(all_items_in_route_type)
-    route_type_items_day = filter(is_in_date, all_items_in_route_type)
+        all_items_in_route_type =  list(all_items_in_route_type)
+        route_type_items_day = filter(is_in_date, all_items_in_route_type)
 
-    total_work_day = 0
+        total_work_day = 0
 
-    for route_item in route_type_items_day:
-        total_work_day += route_item.routing_time
+        for route_item in route_type_items_day:
+            total_work_day += route_item.routing_time
 
-    if total_work_day < max_day_work_capacity:
+        return total_work_day
+    
+    while scheduled == False:
+        total_work_day = filter_route_work_for_day(d)
         if (total_work_day + work) < max_day_work_capacity:
             schedule_item.work_datetime = d
+            scheduled = True
         else:
             d += timedelta(days=1)
-    else:
-        d += timedelta(days=1)
     
 
     schedule_item.save()
