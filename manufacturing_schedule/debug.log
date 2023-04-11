@@ -2924,3 +2924,140 @@ AttributeError: 'LineItemPart' object has no attribute 'schedule_parts'
 "GET / HTTP/1.1" 500 92136
 C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1757
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2587
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/css/login.css HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 9563
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /admin/bom/lineitempart/ HTTP/1.1" 200 15727
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/filters.js HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /admin/bom/bom/ HTTP/1.1" 200 8687
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/bom/parts/ HTTP/1.1" 200 14879
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/constants/constantvals/ HTTP/1.1" 200 7611
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/projects/projects/ HTTP/1.1" 200 8771
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/release/ HTTP/1.1" 200 8791
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/bom/lineitempart/ HTTP/1.1" 200 15727
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1757
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1757
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1757
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1757
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 11, in schedule_display
+    schedule_line_items()
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 86, in schedule_line_items
+    run_scheduling_routine(1, indiv_part.routing1, indiv_part.routing1_time, indiv_part, items, release)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 114, in run_scheduling_routine
+    print(list(subpart.schedule_lineitems))
+TypeError: 'RelatedManager' object is not iterable
+"GET / HTTP/1.1" 500 92080
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader

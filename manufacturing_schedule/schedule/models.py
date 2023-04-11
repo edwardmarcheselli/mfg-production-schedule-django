@@ -31,6 +31,8 @@ class ScheduleItems(models.Model):
         PAINT = 6
 
     routing = models.IntegerField(choices=Routing.choices, null=True, blank=True)
+    routing_time = models.IntegerField(null=True, blank=True)
+    preroute_schedule_item = models.ForeignKey('self',on_delete=models.CASCADE, related_name="schedule_part_reverse", null=True)
     preroute_finish_datetime = models.DateTimeField(null=True, blank=True)
     work_datetime = models.DateTimeField(null=True, blank=True)
     work_finish_datetime = models.DateTimeField(null=True, blank=True)

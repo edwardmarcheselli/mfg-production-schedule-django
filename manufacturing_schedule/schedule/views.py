@@ -9,6 +9,7 @@ from datetime import datetime, date, timedelta
 # Create your views here.
 def schedule_display(request):
     schedule_line_items()
+    print('finish')
     return render(request, 'partials/index.html')
 
 def create_release(request):
@@ -73,47 +74,93 @@ def schedule_line_items():
     releases = release_sort_priority(releases)
     for release in releases:
         rel_bom = release.bom
+        #gets actual BOM instance from database
         rel_bom = BOM.objects.get(pk=rel_bom.pk)
+        #grabs all line items in that BOM above
         line_items_iter = rel_bom.line_items.all()
         #possibly use .iterator() if doesn't work
+        #iterates through each line item
         for items in line_items_iter:
             if items.is_complete == False:
                 for i in range(items.qty):
                     indiv_part = items.line_item_part
                     if indiv_part.is_purchased == False:
                         if indiv_part.routing1:
-                            run_scheduling_routine(1, indiv_part.routing1, indiv_part.routing1_time, indiv_part, items, release)
-                        if indiv_part.routing2:
-                            run_scheduling_routine(2, indiv_part.routing2, indiv_part.routing2_time, indiv_part, items, release)
-                        if indiv_part.routing3:
-                            run_scheduling_routine(3, indiv_part.routing3, indiv_part.routing3_time, indiv_part, items, release)
-                        if indiv_part.routing4:
-                            run_scheduling_routine(4, indiv_part.routing4, indiv_part.routing4_time, indiv_part, items, release)
+                            route_inst1 = run_scheduling_routine(-1, 1, indiv_part.routing1, indiv_part.routing1_time, indiv_part, items, release)
+                        elif indiv_part.routing2:
+                            route_inst2 = run_scheduling_routine(route_inst1, 2, indiv_part.routing2, indiv_part.routing2_time, indiv_part, items, release)
+                        elif indiv_part.routing3:
+                            route_inst3 = run_scheduling_routine(route_inst2, 3, indiv_part.routing3, indiv_part.routing3_time, indiv_part, items, release)
+                        elif indiv_part.routing4:
+                            route_inst4 = run_scheduling_routine(route_inst3, 4, indiv_part.routing4, indiv_part.routing4_time, indiv_part, items, release)
         #need to set release scheduled to true at the end of this for loop
 
 #eventually to check if sub parts still in process items.lineitem_assembly_part
 #have to check all in routing filter by date
 #d = datetime.today() - timedelta(days=days_to_subtract)
 
-def run_scheduling_routine(route_order, route_type, route_time, part, line_item, release):
+def run_scheduling_routine(former_route, route, route_type, route_time, part, line_item, release):
     schedule_item = ScheduleItems.objects.create()
     schedule_item.schedule_part = part
+    schedule_item.schedule_line_Item = line_item
     schedule_item.schedule_release = release
     schedule_item.routing = route_type
+    schedule_item.routing_time = route_time
     scheduled = False
     d = date.today()
     work = route_time
+    max_pred_date = 0
     #print('enter while')
     #need to check if sub assembly parts are complete and max date
     subparts = list(line_item.lineitem_assembly_part.all())
     if len(subparts) > 0:
         for subpart in subparts:
-            print(list(subpart.schedule_lineitems.all()))
-            scheduled = True
-    else:
-        scheduled = True
-        #schedule_lineitems.work_finish_datetime)
-    #need to look out routing position and compare to former routing finish date if applicable
-
-
+            if (len(list(subpart.schedule_lineitems.all()))):
+                subpart_schedule_items = list(subpart.schedule_lineitems.all())
+                for schedule_item in subpart_schedule_items:
+                    if schedule_item.work_finish_datetime > max_pred_date:
+                        max_pred_date = schedule_item.work_finish_datetime
+    #need to look at routing position and compare to former routing finish date if applicable
+    if former_route != -1:
+        preroute_finish = former_route.work_finish_datetime
+        if preroute_finish > max_pred_date:
+            max_pred_date = preroute_finish
     #then need to step through rounting process backlog to find an opening for the part
+    all_items_in_route_type = ScheduleItems.objects.filter(routing = route_type)
+    constants = ConstantVals.objects.latest('post_date')
+    if route_type == 1:
+        max_day_work_capacity = constants.laser_max_work
+    elif route_type == 2:
+        max_day_work_capacity = constants.weld_max_work
+    elif route_type == 3:
+        max_day_work_capacity = constants.press_max_work
+    elif route_type == 4:
+        max_day_work_capacity = constants.machine_max_work
+    elif route_type == 5:
+        max_day_work_capacity = constants.cut_max_work
+    elif route_type == 6:
+        max_day_work_capacity = constants.paint_max_work
+
+    def is_in_date(day_route_item):
+        if day_route_item.work_date_time == d:
+            return True
+
+    all_items_in_route_type =  list(all_items_in_route_type)
+    route_type_items_day = filter(is_in_date, all_items_in_route_type)
+
+    total_work_day = 0
+
+    for route_item in route_type_items_day:
+        total_work_day += route_item.routing_time
+
+    if total_work_day < max_day_work_capacity:
+        if (total_work_day + work) < max_day_work_capacity:
+            schedule_item.work_datetime = d
+        else:
+            d += timedelta(days=1)
+    else:
+        d += timedelta(days=1)
+    
+
+    schedule_item.save()
+    return schedule_item
