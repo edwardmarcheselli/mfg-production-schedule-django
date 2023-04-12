@@ -15,7 +15,7 @@ class Release(models.Model):
         verbose_name = "Release"
 
     def __str__(self):
-        return str(self.bom) + ' - ' + str(self.release_date) + ' - ' + str(self.priority)
+        return str(self.bom) + ' - ' + str(self.release_date.date()) + ' - ' + str(self.priority)
 
 class ScheduleItems(models.Model):
     schedule_part = models.ForeignKey(Parts,  on_delete=models.CASCADE, related_name="schedule_parts", null=True)
@@ -37,3 +37,9 @@ class ScheduleItems(models.Model):
     work_datetime = models.DateTimeField(null=True, blank=True)
     work_finish_datetime = models.DateTimeField(null=True, blank=True)
     priority = models.IntegerField(null=True, blank=True)
+
+    class Meta:
+        verbose_name = "Schedule Items"
+
+    def __str__(self):
+        return str(self.routing) + ' - ' + str(self.schedule_part) + ' - ' + str(self.schedule_release)

@@ -4,6 +4,8 @@ from django.urls import reverse
 from django.contrib import messages
 from .forms import UploadFileForm
 import logging
+import math
+import traceback
 
 from .models import Parts, LineItemPart, BOM
 
@@ -82,20 +84,28 @@ def handle_uploaded_file(csv_file, form_data):
 				if fields[12] != '':
 					part_inst.cost3 = float(fields[12])
 				#This '3' eventually needs to be made dynamic to match the number of routing phases currently set to three CVS template handles 4
-				for i in range(3):
+				for i in range(4):
 					val = 12 + i
 					if fields[val].upper() in routing_fields:
 						if val == 13:
 							part_inst.routing1 = routing_conversion(fields[val])
-						elif val == 14:
+						if val == 14:
 							part_inst.routing2 = routing_conversion(fields[val])
-						elif val == 15:
+						if val == 15:
 							part_inst.routing3 = routing_conversion(fields[val])
-						elif val == 16:
+						if val == 16:
 							part_inst.routing4 = routing_conversion(fields[val])
-				if fields[17] == 'ASSEM':
+				if fields[17] != '':
+					part_inst.routing1_time = int(fields[17])
+				if fields[18] != '':
+					part_inst.routing2_time = int(fields[18])
+				if fields[19] != '':
+					part_inst.routing3_time = int(fields[19])
+				if fields[20] != '':
+					part_inst.routing4_time = int(fields[20])
+				if fields[21] == 'ASSEM':
 					part_inst.is_assembly = True
-				elif fields[17] == 'PUR':
+				elif fields[21] == 'PUR':
 					part_inst.is_purchased = True
 				part_inst.save()
 				line_item_inst = LineItemPart.objects.create(line_item_part = part_inst, qty = int(fields[4]))
@@ -107,6 +117,7 @@ def handle_uploaded_file(csv_file, form_data):
 	except Exception as e:
 		#logging.getLogger("error_logger").error("Unable to upload file. "+repr(e))
 		print(e)
+		print(traceback.format_exc())
 	return 0
 
 def bom_upload(request):

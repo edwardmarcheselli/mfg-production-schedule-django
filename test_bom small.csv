@@ -1,0 +1,4 @@
+address,internal_pn,mfg_pn,description,qty,weight,color,vend1,cost1,vend2,cost2,vend3,cost3,route1,route2,route3,route4,routing1-time,routing2-time,routing3-time,routing4-time,type
+1,EM-101123,12ab345c2,bolt,1,5,,McMaster,5,Mouser,14,Arrow,10,LASER,WELD,,,21,22,23,24,ASSEM
+2,EM-101122,12ab345c3,screw,3,4,,Mouser,20,Mouser,25,Arrow,15,PRESS,,,,35,36,37,38,ASSEM
+3,EM-101121,12ab345c4,motor,5,3,,3M,4,Mouser,34,Arrow,25,CUT,WELD,PAINT,,10,11,12,13,ASSEM

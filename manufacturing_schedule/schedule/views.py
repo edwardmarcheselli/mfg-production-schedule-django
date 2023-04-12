@@ -5,6 +5,8 @@ from .models import Release, ScheduleItems
 from bom.models import BOM, LineItemPart, Parts
 from constants.models import ConstantVals
 from datetime import datetime, date, timedelta
+from django.utils.timezone import make_aware
+from django.conf import settings
 
 # Create your views here.
 def schedule_display(request):
@@ -87,11 +89,11 @@ def schedule_line_items():
                     if indiv_part.is_purchased == False:
                         if indiv_part.routing1:
                             route_inst1 = run_scheduling_routine(-1, 1, indiv_part.routing1, indiv_part.routing1_time, indiv_part, items, release)
-                        elif indiv_part.routing2:
+                        if indiv_part.routing2:
                             route_inst2 = run_scheduling_routine(route_inst1, 2, indiv_part.routing2, indiv_part.routing2_time, indiv_part, items, release)
-                        elif indiv_part.routing3:
+                        if indiv_part.routing3:
                             route_inst3 = run_scheduling_routine(route_inst2, 3, indiv_part.routing3, indiv_part.routing3_time, indiv_part, items, release)
-                        elif indiv_part.routing4:
+                        if indiv_part.routing4:
                             route_inst4 = run_scheduling_routine(route_inst3, 4, indiv_part.routing4, indiv_part.routing4_time, indiv_part, items, release)
         #need to set release scheduled to true at the end of this for loop
 
@@ -107,7 +109,7 @@ def run_scheduling_routine(former_route, route, route_type, route_time, part, li
     schedule_item.routing = route_type
     schedule_item.routing_time = route_time
     scheduled = False
-    d = date.today()
+    d = datetime.today()
     work = route_time
     max_pred_date = 0
     #print('enter while')
@@ -123,8 +125,9 @@ def run_scheduling_routine(former_route, route, route_type, route_time, part, li
     #need to look at routing position and compare to former routing finish date if applicable
     if former_route != -1:
         preroute_finish = former_route.work_finish_datetime
-        if preroute_finish > max_pred_date:
-            max_pred_date = preroute_finish
+        if max_pred_date > 0:
+            if preroute_finish > max_pred_date:
+                max_pred_date = preroute_finish
     #then need to step through rounting process backlog to find an opening for the part
     all_items_in_route_type = ScheduleItems.objects.filter(routing = route_type)
     constants = ConstantVals.objects.latest('post_date')
@@ -141,9 +144,9 @@ def run_scheduling_routine(former_route, route, route_type, route_time, part, li
     elif route_type == 6:
         max_day_work_capacity = constants.paint_max_work
 
-    def filter_route_work_for_day(d):
+    def filter_route_work_for_day(d, all_items_in_route_type):
         def is_in_date(day_route_item):
-            if day_route_item.work_date_time == d:
+            if day_route_item.work_datetime == d:
                 return True
 
         all_items_in_route_type =  list(all_items_in_route_type)
@@ -157,9 +160,12 @@ def run_scheduling_routine(former_route, route, route_type, route_time, part, li
         return total_work_day
     
     while scheduled == False:
-        total_work_day = filter_route_work_for_day(d)
+        total_work_day = filter_route_work_for_day(d, all_items_in_route_type)
         if (total_work_day + work) < max_day_work_capacity:
-            schedule_item.work_datetime = d
+            settings.TIME_ZONE
+            schedule_item.work_datetime = make_aware(d)
+            next_day = d + timedelta(days=1)
+            schedule_item.work_finish_datetime = make_aware(next_day)
             scheduled = True
         else:
             d += timedelta(days=1)
