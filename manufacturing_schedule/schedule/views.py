@@ -7,12 +7,20 @@ from constants.models import ConstantVals
 from datetime import datetime, date, timedelta
 from django.utils.timezone import make_aware
 from django.conf import settings
+from json import dumps
 
 # Create your views here.
 def schedule_display(request):
-    schedule_line_items()
-    print('finish')
-    return render(request, 'partials/index.html')
+    try:
+        schedule_items = list(ScheduleItems.objects.values())
+    except:
+        HttpResponse('error in schedule')
+    dataJSON = dumps(schedule_items, default=str)
+    context = {
+        'schedule_items' : schedule_items,
+        'data' : dataJSON
+    }
+    return render(request, 'schedule/schedule_timeline.html', context)
 
 def create_release(request):
     if request.method == 'POST':
@@ -37,6 +45,7 @@ def release_sort_priority(releases_to_sort):
     releases.sort(key=num_priority)
     return releases
 
+#function to reprioritize releases with the same priority (most recent release wins the priority spot)
 def priority_recalc_doubles():
     
     releases = Release.objects.filter()
@@ -63,6 +72,7 @@ def priority_recalc():
     releases = Release.objects.filter()
     releases = release_sort_priority(releases)
 
+    #For loop makes sure that priority is rebased down to 1,2,3,4 not e.g. 4,6,8,9
     for i, release in enumerate(releases):
         if (release.priority > i):
             release_inst = Release.objects.get(pk = release.pk)
@@ -73,6 +83,7 @@ def priority_recalc():
 
 def schedule_line_items():
     releases = Release.objects.filter()
+    #sort the releases by their priority number so that as the schedule arranges the schedule items the higher priority get scheduled first
     releases = release_sort_priority(releases)
     for release in releases:
         rel_bom = release.bom
@@ -108,8 +119,12 @@ def run_scheduling_routine(former_route, route, route_type, route_time, part, li
     schedule_item.schedule_release = release
     schedule_item.routing = route_type
     schedule_item.routing_time = route_time
+    if former_route != -1:
+        schedule_item.preroute_schedule_item = former_route
+        schedule_item.preroute_finish_datetime = former_route.work_finish_datetime
     scheduled = False
     d = datetime.today()
+    d = make_aware(d)
     work = route_time
     max_pred_date = 0
     #print('enter while')
@@ -128,6 +143,10 @@ def run_scheduling_routine(former_route, route, route_type, route_time, part, li
         if max_pred_date > 0:
             if preroute_finish > max_pred_date:
                 max_pred_date = preroute_finish
+    if type(max_pred_date) != int:
+        if max_pred_date > d:
+            d = max_pred_date
+    
     #then need to step through rounting process backlog to find an opening for the part
     all_items_in_route_type = ScheduleItems.objects.filter(routing = route_type)
     constants = ConstantVals.objects.latest('post_date')
@@ -146,7 +165,7 @@ def run_scheduling_routine(former_route, route, route_type, route_time, part, li
 
     def filter_route_work_for_day(d, all_items_in_route_type):
         def is_in_date(day_route_item):
-            if day_route_item.work_datetime == d:
+            if day_route_item.work_datetime.date() == d.date():
                 return True
 
         all_items_in_route_type =  list(all_items_in_route_type)
@@ -156,19 +175,25 @@ def run_scheduling_routine(former_route, route, route_type, route_time, part, li
 
         for route_item in route_type_items_day:
             total_work_day += route_item.routing_time
+            if route_item.work_finish_datetime.time() > d.time():
+                date_string = route_item.work_finish_datetime.strftime("%H:%M:%S")
+                tocompare = datetime.strptime(date_string, '%H:%M:%S')
+                d = make_aware(datetime(d.year, d.month, d.day, tocompare.hour, tocompare.minute))
+        
+        work_day_info = [total_work_day, d]
 
-        return total_work_day
+        return work_day_info
     
     while scheduled == False:
-        total_work_day = filter_route_work_for_day(d, all_items_in_route_type)
-        if (total_work_day + work) < max_day_work_capacity:
-            settings.TIME_ZONE
-            schedule_item.work_datetime = make_aware(d)
-            next_day = d + timedelta(days=1)
-            schedule_item.work_finish_datetime = make_aware(next_day)
+        work_day_info = filter_route_work_for_day(d, all_items_in_route_type)
+        if (work_day_info[0] + work) < max_day_work_capacity:
+            schedule_item.work_datetime = work_day_info[1]
+            finish_time = work_day_info[1] + timedelta(minutes=work)
+            schedule_item.work_finish_datetime = finish_time
             scheduled = True
         else:
             d += timedelta(days=1)
+            d.replace(hour = 8, minute=0)
     
 
     schedule_item.save()
