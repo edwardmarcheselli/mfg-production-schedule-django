@@ -4801,3 +4801,1157 @@ TypeError: Object of type datetime is not JSON serializable
 C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
 Watching for file changes with StatReloader
 "GET / HTTP/1.1" 200 61098
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 72498
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2587
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/css/login.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 10415
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /admin/bom/parts/ HTTP/1.1" 200 9490
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/filters.js HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"POST /admin/bom/parts/ HTTP/1.1" 200 17283
+"GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+"POST /admin/bom/parts/ HTTP/1.1" 302 0
+"GET /admin/bom/parts/ HTTP/1.1" 200 8059
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+"GET /admin/bom/bom/ HTTP/1.1" 200 9004
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/bom/bom/ HTTP/1.1" 200 8251
+"POST /admin/bom/bom/ HTTP/1.1" 302 0
+"GET /admin/bom/bom/ HTTP/1.1" 200 8000
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/constants/constantvals/ HTTP/1.1" 200 9110
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/constants/constantvals/1/change/ HTTP/1.1" 200 18884
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+"POST /admin/constants/constantvals/1/change/ HTTP/1.1" 302 0
+"GET /admin/constants/constantvals/ HTTP/1.1" 200 9338
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/projects/projects/ HTTP/1.1" 200 9087
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/release/ HTTP/1.1" 200 7915
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 7962
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /bom/bom_upload/ HTTP/1.1" 200 2827
+"POST /bom/bom_upload/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 2532
+"GET /create_release/ HTTP/1.1" 200 3631
+"POST /create_release/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 2532
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 14, in schedule_display
+    schedule_line_items()
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 109, in schedule_line_items
+    route_inst1 = run_scheduling_routine(-1, 1, indiv_part.routing1, indiv_part.routing1_time, indiv_part, items, release)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 184, in run_scheduling_routine
+    for i in worker_qty:
+TypeError: 'int' object is not iterable
+"GET / HTTP/1.1" 500 92221
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 14, in schedule_display
+    schedule_line_items()
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 109, in schedule_line_items
+    route_inst1 = run_scheduling_routine(-1, 1, indiv_part.routing1, indiv_part.routing1_time, indiv_part, items, release)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 185, in run_scheduling_routine
+    max_time[i] = d
+IndexError: list assignment index out of range
+"GET / HTTP/1.1" 500 92345
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 14, in schedule_display
+    schedule_line_items()
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 109, in schedule_line_items
+    route_inst1 = run_scheduling_routine(-1, 1, indiv_part.routing1, indiv_part.routing1_time, indiv_part, items, release)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 231, in run_scheduling_routine
+    work_day_info = filter_route_work_for_day(d, all_items_in_route_type)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 210, in filter_route_work_for_day
+    if (worker_work_day + work) < max_day_work_capacity:
+UnboundLocalError: local variable 'worker_work_day' referenced before assignment
+"GET / HTTP/1.1" 500 99537
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 14, in schedule_display
+    schedule_line_items()
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 109, in schedule_line_items
+    route_inst1 = run_scheduling_routine(-1, 1, indiv_part.routing1, indiv_part.routing1_time, indiv_part, items, release)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 233, in run_scheduling_routine
+    work_day_info = filter_route_work_for_day(d, all_items_in_route_type)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 214, in filter_route_work_for_day
+    worker_specific_d = worker_parts[0]
+IndexError: list index out of range
+"GET / HTTP/1.1" 500 99461
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 14, in schedule_display
+    schedule_line_items()
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 109, in schedule_line_items
+    route_inst1 = run_scheduling_routine(-1, 1, indiv_part.routing1, indiv_part.routing1_time, indiv_part, items, release)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 237, in run_scheduling_routine
+    finish_time = work_day_info[1] + timedelta(minutes=work)
+TypeError: can only concatenate list (not "datetime.timedelta") to list
+"GET / HTTP/1.1" 500 93615
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 14, in schedule_display
+    schedule_line_items()
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 109, in schedule_line_items
+    route_inst1 = run_scheduling_routine(-1, 1, indiv_part.routing1, indiv_part.routing1_time, indiv_part, items, release)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 237, in run_scheduling_routine
+    finish_time = work_day_info[1] + timedelta(minutes=work)
+TypeError: can only concatenate list (not "datetime.timedelta") to list
+"GET / HTTP/1.1" 500 93621
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 14, in schedule_display
+    schedule_line_items()
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 109, in schedule_line_items
+    route_inst1 = run_scheduling_routine(-1, 1, indiv_part.routing1, indiv_part.routing1_time, indiv_part, items, release)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 240, in run_scheduling_routine
+    finish_time = work_day_info[1] + timedelta(minutes=work)
+TypeError: can only concatenate list (not "datetime.timedelta") to list
+"GET / HTTP/1.1" 500 93621
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 14, in schedule_display
+    schedule_line_items()
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 109, in schedule_line_items
+    route_inst1 = run_scheduling_routine(-1, 1, indiv_part.routing1, indiv_part.routing1_time, indiv_part, items, release)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 241, in run_scheduling_routine
+    finish_time = work_day_info[1] + timedelta(minutes=work)
+TypeError: can only concatenate list (not "datetime.timedelta") to list
+"GET / HTTP/1.1" 500 93621
+"GET /create_release/ HTTP/1.1" 200 3631
+"POST /create_release/ HTTP/1.1" 302 0
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 14, in schedule_display
+    schedule_line_items()
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 109, in schedule_line_items
+    route_inst1 = run_scheduling_routine(-1, 1, indiv_part.routing1, indiv_part.routing1_time, indiv_part, items, release)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 241, in run_scheduling_routine
+    finish_time = work_day_info[1] + timedelta(minutes=work)
+TypeError: can only concatenate list (not "datetime.timedelta") to list
+"GET / HTTP/1.1" 500 93664
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 58898
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /create_release/ HTTP/1.1" 200 3631
+"POST /create_release/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 130412
+"GET / HTTP/1.1" 200 201926
+"GET / HTTP/1.1" 200 273616
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 34756
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/1055/change/ HTTP/1.1" 200 36790
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 34756
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/1043/change/ HTTP/1.1" 200 36790
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 345316
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 417016
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 488716
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 560416
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 686684
+"GET / HTTP/1.1" 200 758384
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 830084
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 14, in schedule_display
+    schedule_line_items()
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 109, in schedule_line_items
+    route_inst1 = run_scheduling_routine(-1, 1, indiv_part.routing1, indiv_part.routing1_time, indiv_part, items, release)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 240, in run_scheduling_routine
+    work_day_info = filter_route_work_for_day(d, all_items_in_route_type)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 206, in filter_route_work_for_day
+    worker_parts = list(filter(lambda items: workers_work(items, i), list(route_type_items_day).items()))
+AttributeError: 'list' object has no attribute 'items'
+"GET / HTTP/1.1" 500 103068
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 902752
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 974452
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1046152
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+- Broken pipe from ('127.0.0.1', 49336)
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 35035
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/bom/parts/ HTTP/1.1" 200 9490
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/bom/parts/ HTTP/1.1" 200 137458
+- Broken pipe from ('127.0.0.1', 49337)
+Internal Server Error: /admin/bom/parts/
+Traceback (most recent call last):
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 189, in __get__
+    rel_obj = self.field.get_cached_value(instance)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\db\models\fields\mixins.py", line 15, in get_cached_value
+    return instance._state.fields_cache[cache_name]
+KeyError: 'schedule_part'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\contrib\admin\options.py", line 1989, in changelist_view
+    response = self.response_action(
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\contrib\admin\options.py", line 1594, in response_action
+    response = func(self, request, queryset)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\contrib\admin\actions.py", line 39, in delete_selected
+    ) = modeladmin.get_deleted_objects(queryset, request)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\contrib\admin\options.py", line 2105, in get_deleted_objects
+    return get_deleted_objects(objs, request, self.admin_site)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\contrib\admin\utils.py", line 153, in get_deleted_objects
+    to_delete = collector.nested(format_callback)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\contrib\admin\utils.py", line 220, in nested
+    roots.extend(self._nested(root, seen, format_callback))
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\contrib\admin\utils.py", line 204, in _nested
+    children.extend(self._nested(child, seen, format_callback))
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\contrib\admin\utils.py", line 204, in _nested
+    children.extend(self._nested(child, seen, format_callback))
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\contrib\admin\utils.py", line 206, in _nested
+    ret = [format_callback(obj)]
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\contrib\admin\utils.py", line 128, in format_callback
+    no_edit_link = "%s: %s" % (capfirst(opts.verbose_name), obj)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\models.py", line 48, in __str__
+    return str(self.routing) + ' - ' + str(self.schedule_part) + ' - ' + str(self.schedule_release)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 207, in __get__
+    rel_obj = self.get_object(instance)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 170, in get_object
+    return qs.get(self.field.get_reverse_related_filter(instance))
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\db\models\query.py", line 650, in get
+    raise self.model.DoesNotExist(
+bom.models.Parts.DoesNotExist: Parts matching query does not exist.
+"POST /admin/bom/parts/ HTTP/1.1" 500 186747
+"POST /admin/bom/parts/ HTTP/1.1" 200 7793
+"POST /admin/bom/parts/ HTTP/1.1" 200 7916
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 11467
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/schedule/scheduleitems/ HTTP/1.1" 200 9722
+"POST /admin/schedule/scheduleitems/ HTTP/1.1" 302 0
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 8108
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/bom/bom/ HTTP/1.1" 200 9004
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/bom/bom/ HTTP/1.1" 200 8251
+"POST /admin/bom/bom/ HTTP/1.1" 302 0
+"GET /admin/bom/bom/ HTTP/1.1" 200 8000
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET / HTTP/1.1" 200 2532
+"GET /bom/bom_upload/ HTTP/1.1" 200 2827
+"POST /bom/bom_upload/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 2532
+"GET /create_release/ HTTP/1.1" 200 3631
+"POST /create_release/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 26428
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 50328
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 74228
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 98128
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 122028
+- Broken pipe from ('127.0.0.1', 51511)
+"GET / HTTP/1.1" 200 169828
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 193728
+"GET /admin/bom/parts/ HTTP/1.1" 200 9490
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/bom/parts/ HTTP/1.1" 200 31254
+"POST /admin/bom/parts/ HTTP/1.1" 302 0
+"GET /admin/bom/parts/ HTTP/1.1" 200 8059
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/bom/bom/ HTTP/1.1" 200 9004
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/bom/bom/ HTTP/1.1" 200 8063
+"POST /admin/bom/bom/ HTTP/1.1" 302 0
+"GET /admin/bom/bom/ HTTP/1.1" 200 8000
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 7962
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /bom/bom_upload/ HTTP/1.1" 200 2827
+"POST /bom/bom_upload/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 2532
+"GET /create_release/ HTTP/1.1" 200 3631
+"POST /create_release/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 26428
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 14022
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/1942/change/ HTTP/1.1" 200 21583
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 14022
+"GET /admin/schedule/scheduleitems/1935/change/ HTTP/1.1" 200 21583
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 14022
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 14102
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET / HTTP/1.1" 200 50328
+"GET / HTTP/1.1" 200 74228
+"GET / HTTP/1.1" 200 98128
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 29642
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 122028
+"GET / HTTP/1.1" 200 145928
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 169828
+"GET / HTTP/1.1" 200 193728
+"GET / HTTP/1.1" 200 217628
+"GET / HTTP/1.1" 200 241528
+"GET / HTTP/1.1" 200 265428
+"GET / HTTP/1.1" 200 289328
+"GET / HTTP/1.1" 200 313228
+"GET / HTTP/1.1" 200 337128
+"GET / HTTP/1.1" 200 361028
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+"GET / HTTP/1.1" 200 384928
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 408828
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+"GET / HTTP/1.1" 200 432728
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 465776
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 489676
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 513576
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 537476
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 10118
+"GET /admin/bom/parts/ HTTP/1.1" 200 9490
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/bom/parts/ HTTP/1.1" 200 72916
+"POST /admin/bom/parts/ HTTP/1.1" 302 0
+"GET /admin/bom/parts/ HTTP/1.1" 200 8059
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/bom/bom/ HTTP/1.1" 200 9004
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/bom/bom/ HTTP/1.1" 200 8063
+"POST /admin/bom/bom/ HTTP/1.1" 302 0
+"GET /admin/bom/bom/ HTTP/1.1" 200 8000
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /bom/bom_upload/ HTTP/1.1" 200 2827
+"POST /bom/bom_upload/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 3496
+"GET /create_release/ HTTP/1.1" 200 3631
+"POST /create_release/ HTTP/1.1" 302 0
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 14, in schedule_display
+    schedule_line_items()
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 109, in schedule_line_items
+    route_inst1 = run_scheduling_routine(-1, 1, indiv_part.routing1, indiv_part.routing1_time, indiv_part, items, release)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 242, in run_scheduling_routine
+    work_day_info = filter_route_work_for_day(d, all_items_in_route_type)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 222, in filter_route_work_for_day
+    worker_parts.sort(key=lambda x: x.work_finish_datetime, reverse=True)
+AttributeError: 'filter' object has no attribute 'sort'
+"GET / HTTP/1.1" 500 100610
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 14, in schedule_display
+    schedule_line_items()
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 109, in schedule_line_items
+    route_inst1 = run_scheduling_routine(-1, 1, indiv_part.routing1, indiv_part.routing1_time, indiv_part, items, release)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 246, in run_scheduling_routine
+    finish_time = work_day_info[1] + timedelta(minutes=work)
+TypeError: can only concatenate list (not "datetime.timedelta") to list
+"GET / HTTP/1.1" 500 93759
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 14, in schedule_display
+    schedule_line_items()
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 109, in schedule_line_items
+    route_inst1 = run_scheduling_routine(-1, 1, indiv_part.routing1, indiv_part.routing1_time, indiv_part, items, release)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 242, in run_scheduling_routine
+    work_day_info = filter_route_work_for_day(d, all_items_in_route_type)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 223, in filter_route_work_for_day
+    worker_specific_d = worker_parts[0]['work_finish_datetime']
+TypeError: 'ScheduleItems' object is not subscriptable
+"GET / HTTP/1.1" 500 100217
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 14, in schedule_display
+    schedule_line_items()
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 109, in schedule_line_items
+    route_inst1 = run_scheduling_routine(-1, 1, indiv_part.routing1, indiv_part.routing1_time, indiv_part, items, release)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 246, in run_scheduling_routine
+    finish_time = work_day_info[1] + timedelta(minutes=work)
+TypeError: unsupported operand type(s) for +: 'ScheduleItems' and 'datetime.timedelta'
+"GET / HTTP/1.1" 500 93857
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 34788
+"GET /admin/bom/parts/ HTTP/1.1" 200 9490
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 16079
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/bom/parts/ HTTP/1.1" 200 9490
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/bom/parts/ HTTP/1.1" 200 12271
+"POST /admin/bom/parts/ HTTP/1.1" 302 0
+"GET /admin/bom/parts/ HTTP/1.1" 200 8059
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/bom/bom/ HTTP/1.1" 200 9004
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/bom/bom/ HTTP/1.1" 200 8063
+"POST /admin/bom/bom/ HTTP/1.1" 302 0
+"GET /admin/bom/bom/ HTTP/1.1" 200 8000
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /bom/bom_upload/ HTTP/1.1" 200 2827
+"POST /bom/bom_upload/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 7368
+"GET /create_release/ HTTP/1.1" 200 3631
+"POST /create_release/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 31268
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 15302
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET / HTTP/1.1" 200 55168
+"GET / HTTP/1.1" 200 79068
+"GET / HTTP/1.1" 200 102968
+"GET / HTTP/1.1" 200 126868
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 35261
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/?p=2 HTTP/1.1" 200 10701
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/?p=1 HTTP/1.1" 200 37887
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/2497/change/?_changelist_filters=p%3D1 HTTP/1.1" 200 28298
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 150768
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 35261
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/constants/constantvals/ HTTP/1.1" 200 9110
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/constants/constantvals/1/change/ HTTP/1.1" 200 18944
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 35261
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/2517/change/ HTTP/1.1" 200 29770
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 35261
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/2425/change/ HTTP/1.1" 200 29770
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 35261
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 174668
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 198568
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 222468
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 246368
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 270268
+"GET / HTTP/1.1" 200 294168
+"GET / HTTP/1.1" 200 318068
+"GET / HTTP/1.1" 200 341968
+"GET / HTTP/1.1" 200 365868
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 389768
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 413668
+"GET / HTTP/1.1" 200 437568
+"GET / HTTP/1.1" 200 461468
+"GET / HTTP/1.1" 200 485368
+"GET / HTTP/1.1" 200 509268
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 533168
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 557068
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 35298
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/bom/parts/ HTTP/1.1" 200 9490
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/bom/parts/ HTTP/1.1" 200 74824
+"POST /admin/bom/parts/ HTTP/1.1" 302 0
+"GET /admin/bom/parts/ HTTP/1.1" 200 8059
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/bom/bom/ HTTP/1.1" 200 9004
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/bom/bom/ HTTP/1.1" 200 8063
+"POST /admin/bom/bom/ HTTP/1.1" 302 0
+"GET /admin/bom/bom/ HTTP/1.1" 200 8000
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /bom/bom_upload/ HTTP/1.1" 200 2827
+"GET /admin/bom/bom/ HTTP/1.1" 200 7867
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /bom/bom_upload/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 7368
+"GET /create_release/ HTTP/1.1" 200 3631
+"POST /create_release/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 31268
+"GET / HTTP/1.1" 200 55168
+"GET / HTTP/1.1" 200 79068
+"GET / HTTP/1.1" 200 102968
+"GET / HTTP/1.1" 200 126868
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 150768
+"GET / HTTP/1.1" 200 174668
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 198568
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 222468
+"GET / HTTP/1.1" 200 246368
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 270268
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 294168
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 318068
+"GET / HTTP/1.1" 200 341968
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 365868
+"GET / HTTP/1.1" 200 389768
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 413668
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 437568
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 461468
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 485368
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 509268
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 533168
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 35298
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/3297/change/ HTTP/1.1" 200 54730
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/schedule/scheduleitems/3297/change/ HTTP/1.1" 200 54730
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET / HTTP/1.1" 200 557068
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 580968
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 604868
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 628768
+"GET /admin/bom/lineitempart/ HTTP/1.1" 200 9586
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 652668
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 676568
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 700468
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 14, in schedule_display
+    schedule_line_items()
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 109, in schedule_line_items
+    route_inst1 = run_scheduling_routine(-1, 1, indiv_part.routing1, indiv_part.routing1_time, indiv_part, items, release)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 142, in run_scheduling_routine
+    subparts = list(line_item.lineitem_assembly_part)
+TypeError: 'RelatedManager' object is not iterable
+"GET / HTTP/1.1" 500 91226
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 725336
+"GET /admin/bom/lineitempart/56/change/ HTTP/1.1" 200 13049
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/bom/parts/ HTTP/1.1" 200 9490
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/bom/lineitempart/ HTTP/1.1" 200 9586
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 749236
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 773136
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 14, in schedule_display
+    schedule_line_items()
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 111, in schedule_line_items
+    route_inst2 = run_scheduling_routine(route_inst1, 2, indiv_part.routing2, indiv_part.routing2_time, indiv_part, items, release)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 154, in run_scheduling_routine
+    if max_pred_date > 0:
+TypeError: '>' not supported between instances of 'datetime.datetime' and 'int'
+"GET / HTTP/1.1" 500 92420
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 799144
+"GET /admin/bom/parts/ HTTP/1.1" 200 9490
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/bom/parts/ HTTP/1.1" 200 103574
+"POST /admin/bom/parts/ HTTP/1.1" 302 0
+"GET /admin/bom/parts/ HTTP/1.1" 200 8059
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/bom/bom/ HTTP/1.1" 200 9004
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/bom/bom/ HTTP/1.1" 200 8063
+"POST /admin/bom/bom/ HTTP/1.1" 302 0
+"GET /admin/bom/bom/ HTTP/1.1" 200 8000
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /bom/bom_upload/ HTTP/1.1" 200 2827
+"POST /bom/bom_upload/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 9304
+"GET /create_release/ HTTP/1.1" 200 3631
+"POST /create_release/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 33204
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 15782
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/3540/change/ HTTP/1.1" 200 22088
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/bom/lineitempart/ HTTP/1.1" 200 9586
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET / HTTP/1.1" 200 57104
+"GET / HTTP/1.1" 200 81004
+"GET / HTTP/1.1" 200 104904
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 31322
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/3600/change/ HTTP/1.1" 200 26768
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 128804
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 152704
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 176604
+"GET / HTTP/1.1" 200 200504
+"GET / HTTP/1.1" 200 224404
+"GET / HTTP/1.1" 200 248304
+"GET / HTTP/1.1" 200 272204
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 35244
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/?p=3 HTTP/1.1" 200 16918
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/?p=2 HTTP/1.1" 200 37870
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/?p=1 HTTP/1.1" 200 37870
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET / HTTP/1.1" 200 296104
+"GET / HTTP/1.1" 200 320004
+"GET / HTTP/1.1" 200 343904
+"GET / HTTP/1.1" 200 367804
+"GET /admin/schedule/scheduleitems/3740/change/?_changelist_filters=p%3D1 HTTP/1.1" 200 44016
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/bom/parts/ HTTP/1.1" 200 9490
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/bom/parts/ HTTP/1.1" 200 51928
+"POST /admin/bom/parts/ HTTP/1.1" 302 0
+"GET /admin/bom/parts/ HTTP/1.1" 200 8059
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/bom/bom/ HTTP/1.1" 200 9004
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/bom/bom/ HTTP/1.1" 200 8063
+"POST /admin/bom/bom/ HTTP/1.1" 302 0
+"GET /admin/bom/bom/ HTTP/1.1" 200 8000
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /bom/bom_upload/ HTTP/1.1" 200 2827
+"POST /bom/bom_upload/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 9304
+"GET /create_release/ HTTP/1.1" 200 3631
+"POST /create_release/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 33204
+"GET / HTTP/1.1" 200 57104
+"GET / HTTP/1.1" 200 81004
+"GET / HTTP/1.1" 200 104904
+"GET / HTTP/1.1" 200 128804
+"GET / HTTP/1.1" 200 152704
+"GET / HTTP/1.1" 200 176604
+"GET / HTTP/1.1" 200 200504
+"GET / HTTP/1.1" 200 224404
+"GET / HTTP/1.1" 200 248304
+"GET / HTTP/1.1" 200 272204
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 35244
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/4040/change/ HTTP/1.1" 200 37688
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 296104
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 320004
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 35244
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/bom/parts/ HTTP/1.1" 200 9490
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/bom/parts/ HTTP/1.1" 200 46204
+"POST /admin/bom/parts/ HTTP/1.1" 302 0
+"GET /admin/bom/parts/ HTTP/1.1" 200 8059
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/bom/bom/ HTTP/1.1" 200 9004
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/bom/bom/ HTTP/1.1" 200 8063
+"POST /admin/bom/bom/ HTTP/1.1" 302 0
+"GET /admin/bom/bom/ HTTP/1.1" 200 8000
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /bom/bom_upload/ HTTP/1.1" 200 2827
+"POST /bom/bom_upload/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 9304
+"GET /create_release/ HTTP/1.1" 200 3631
+"POST /create_release/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 33204
+"GET / HTTP/1.1" 200 57104
+"GET / HTTP/1.1" 200 81004
+"GET / HTTP/1.1" 200 104904
+"GET / HTTP/1.1" 200 128804
+"GET / HTTP/1.1" 200 152704
+"GET / HTTP/1.1" 200 176604
+"GET / HTTP/1.1" 200 200504
+"GET / HTTP/1.1" 200 224404
+"GET / HTTP/1.1" 200 248304
+"GET / HTTP/1.1" 200 272204
+"GET / HTTP/1.1" 200 296104
+"GET / HTTP/1.1" 200 320004
+"GET / HTTP/1.1" 200 343904
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 35244
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/4360/change/ HTTP/1.1" 200 42368
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\manufacturing_schedule\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/schedule/scheduleitems/4360/change/ HTTP/1.1" 200 42373
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\manufacturing_schedule\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/schedule/scheduleitems/4360/change/ HTTP/1.1" 500 59
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\manufacturing_schedule\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/schedule/scheduleitems/4360/change/ HTTP/1.1" 200 42373
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\manufacturing_schedule\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/schedule/scheduleitems/4360/change/ HTTP/1.1" 200 42373
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 35249
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/bom/parts/ HTTP/1.1" 200 9495
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/bom/parts/ HTTP/1.1" 200 49071
+"POST /admin/bom/parts/ HTTP/1.1" 302 0
+"GET /admin/bom/parts/ HTTP/1.1" 200 8064
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/bom/bom/ HTTP/1.1" 200 9009
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/bom/bom/ HTTP/1.1" 200 8068
+"POST /admin/bom/bom/ HTTP/1.1" 302 0
+"GET /admin/bom/bom/ HTTP/1.1" 200 8005
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /bom/bom_upload/ HTTP/1.1" 200 2827
+"POST /bom/bom_upload/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 9304
+"GET /create_release/ HTTP/1.1" 200 3631
+"POST /create_release/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 33204
+"GET / HTTP/1.1" 200 57104
+"GET / HTTP/1.1" 200 81004
+"GET / HTTP/1.1" 200 104904
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 128828
+"GET /create_release/ HTTP/1.1" 200 3631
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2561
+"GET / HTTP/1.1" 200 2561
+"GET / HTTP/1.1" 200 2550
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+"GET /admin/bom/parts/ HTTP/1.1" 200 9495
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/ HTTP/1.1" 200 35249
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET / HTTP/1.1" 200 2550
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+"GET /admin/schedule/scheduleitems/?p=3 HTTP/1.1" 200 37983
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/schedule/scheduleitems/?p=7 HTTP/1.1" 200 22731
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/schedule/scheduleitems/?p=7 HTTP/1.1" 200 9113
+"POST /admin/schedule/scheduleitems/?p=7 HTTP/1.1" 302 0
+"GET /admin/schedule/scheduleitems/?p=7 HTTP/1.1" 200 21014
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2550
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 378117

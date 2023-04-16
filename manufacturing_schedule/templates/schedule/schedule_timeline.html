@@ -24,11 +24,11 @@
 </html>
 <script>
     var data = JSON.parse("{{data|escapejs}}");
-    var dataNode = document.getElementById('alldata');
-    dataNode.innerHTML+="{{data|escapejs}}";
-    dataNode = document.getElementById('neatdata');
+    // var dataNode = document.getElementById('alldata');
+    // dataNode.innerHTML+="{{data|escapejs}}";
+    var dataNode = document.getElementById('neatdata');
     for(var x in data){
-        dataNode.innerHTML+=x+' : '+data[x]+'<br><br>';
+        dataNode.innerHTML += x + ' : ' + data[x]['release'] + '<br><br>';
     }
 </script>
 {% endblock %}

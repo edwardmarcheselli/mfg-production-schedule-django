@@ -37,9 +37,12 @@ class ScheduleItems(models.Model):
     work_datetime = models.DateTimeField(null=True, blank=True)
     work_finish_datetime = models.DateTimeField(null=True, blank=True)
     priority = models.IntegerField(null=True, blank=True)
+    is_scheduled = models.BooleanField(default=False)
+    is_complete = models.BooleanField(default=False)
+    worker_num = models.IntegerField(null=True, blank=True)
 
     class Meta:
         verbose_name = "Schedule Items"
 
     def __str__(self):
-        return str(self.routing) + ' - ' + str(self.schedule_part) + ' - ' + str(self.schedule_release)
+        return str(self.routing) + ' - ' + str(self.schedule_part) + ' - ' + str(self.schedule_release) + ' + ' + str(self.worker_num)
