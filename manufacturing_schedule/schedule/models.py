@@ -32,10 +32,11 @@ class ScheduleItems(models.Model):
 
     routing = models.IntegerField(choices=Routing.choices, null=True, blank=True)
     routing_time = models.IntegerField(null=True, blank=True)
+    route_order = models.IntegerField(null=True, blank=True)
     preroute_schedule_item = models.ForeignKey('self',on_delete=models.CASCADE, related_name="schedule_part_reverse", null=True)
-    preroute_finish_datetime = models.DateTimeField(null=True, blank=True)
-    work_datetime = models.DateTimeField(null=True, blank=True)
-    work_finish_datetime = models.DateTimeField(null=True, blank=True)
+    preroute_finish_datetime = models.DateField(null=True, blank=True)
+    work_datetime = models.DateField(null=True, blank=True)
+    work_finish_datetime = models.DateField(null=True, blank=True)
     priority = models.IntegerField(null=True, blank=True)
     is_scheduled = models.BooleanField(default=False)
     is_complete = models.BooleanField(default=False)
@@ -45,4 +46,4 @@ class ScheduleItems(models.Model):
         verbose_name = "Schedule Items"
 
     def __str__(self):
-        return str(self.routing) + ' - ' + str(self.schedule_part) + ' - ' + str(self.schedule_release) + ' + ' + str(self.worker_num)
+        return str(self.routing) + ' - ' + str(self.schedule_part) + ' - ' + str(self.schedule_release) + ' - ' + str(self.work_datetime)
