@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from .forms import CreateRelease
-from .models import Release, ScheduleItems
+from .models import Release, ScheduleItems, RouteTask
 from bom.models import BOM, LineItemPart, Parts
 from constants.models import ConstantVals
 from datetime import datetime, date, timedelta
@@ -48,6 +48,22 @@ def schedule_display(request):
         'data' : dataJSON
     }
     return render(request, 'schedule/schedule_timeline.html', context)
+
+def create_gantt_dictionary():
+    keys = ['tasks', 'selectedRow', 'deletedTaskIds', 'resources', 'roles', 'canAdd', 'canWrite', 'canWriteOnParent', 'zoom']
+    gantt = dict.fromkeys(keys)
+    gantt['selectedRow'] = 1
+    gantt['canAdd'] = False
+    gantt['canWrite'] = True
+    gantt['canWriteOnParent'] = True
+    gantt['zoom'] = '2Q'
+    gantt['deletedTaskIds'] = []
+    gantt['resources'] = []
+    gantt['roles'] = []
+
+    route_tasks = list(RouteTask.objects.values())
+    task_keys = ['id', 'name', 'progress', 'progressByWorklog', 'relevance', 'type', 'TypeId', 'description', 'code', 'level', 'status', 'depends', 'start', 'duration', 'end', 'startIsMilestone', 'endIsMilestone', 'collapsed', 'canWrite', 'canAdd', 'canDelete', 'canAddIssue', 'assigs', 'hasChild']
+
 
 def create_release(request):
     if request.method == 'POST':

@@ -6530,3 +6530,321 @@ C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-
 Watching for file changes with StatReloader
 C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 49342
+Not Found: /libs/jquery/dateField/jquery.dateField.css
+Not Found: /libs/utilities.js
+Not Found: /libs/jquery/jquery.timers.js
+Not Found: /platform.css
+"GET /libs/jquery/dateField/jquery.dateField.css HTTP/1.1" 404 2680
+Not Found: /gantt.css
+"GET /libs/utilities.js HTTP/1.1" 404 2605
+Not Found: /libs/jquery/jquery.livequery.1.1.1.min.js
+"GET /libs/jquery/jquery.timers.js HTTP/1.1" 404 2638
+"GET /platform.css HTTP/1.1" 404 2590
+"GET /gantt.css HTTP/1.1" 404 2581
+Not Found: /libs/forms.js
+"GET /libs/jquery/jquery.livequery.1.1.1.min.js HTTP/1.1" 404 2677
+Not Found: /libs/date.js
+Not Found: /libs/i18nJs.js
+"GET /libs/forms.js HTTP/1.1" 404 2593
+"GET /libs/date.js HTTP/1.1" 404 2590
+"GET /libs/i18nJs.js HTTP/1.1" 404 2596
+Not Found: /libs/dialogs.js
+Not Found: /libs/layout.js
+Not Found: /libs/jquery/dateField/jquery.dateField.js
+"GET /libs/dialogs.js HTTP/1.1" 404 2599
+"GET /libs/layout.js HTTP/1.1" 404 2596
+Not Found: /libs/jquery/JST/jquery.JST.js
+"GET /libs/jquery/dateField/jquery.dateField.js HTTP/1.1" 404 2677
+- Broken pipe from ('127.0.0.1', 56154)
+Not Found: /libs/jquery/svg/jquery.svg.min.js
+Not Found: /libs/jquery/valueSlider/jquery.mb.slider.js
+"GET /libs/jquery/JST/jquery.JST.js HTTP/1.1" 404 2641
+"GET /libs/jquery/valueSlider/jquery.mb.slider.js HTTP/1.1" 404 2683
+"GET /libs/jquery/svg/jquery.svg.min.js HTTP/1.1" 404 2653
+- Broken pipe from ('127.0.0.1', 56150)
+Not Found: /libs/jquery/svg/jquery.svgdom.1.8.js
+Not Found: /ganttUtilities.js
+"GET /libs/jquery/svg/jquery.svgdom.1.8.js HTTP/1.1" 404 2662
+Not Found: /ganttTask.js
+- Broken pipe from ('127.0.0.1', 56159)
+"GET /ganttUtilities.js HTTP/1.1" 404 2605
+Not Found: /ganttDrawerSVG.js
+Not Found: /ganttGridEditor.js
+- Broken pipe from ('127.0.0.1', 56155)
+"GET /ganttTask.js HTTP/1.1" 404 2590
+"GET /ganttDrawerSVG.js HTTP/1.1" 404 2605
+"GET /ganttGridEditor.js HTTP/1.1" 404 2608
+Not Found: /ganttZoom.js
+"GET /ganttZoom.js HTTP/1.1" 404 2590
+Not Found: /ganttMaster.js
+"GET /ganttMaster.js HTTP/1.1" 404 2596
+Not Found: /ganttPrint.css
+Not Found: /libs/jquery/valueSlider/mb.slider.css
+"GET /ganttPrint.css HTTP/1.1" 404 2596
+"GET /libs/jquery/valueSlider/mb.slider.css HTTP/1.1" 404 2665
+"GET / HTTP/1.1" 200 39864
+Not Found: /gantt.css
+Not Found: /platform.css
+"GET /gantt.css HTTP/1.1" 404 2581
+Not Found: /libs/jquery/dateField/jquery.dateField.js
+Not Found: /libs/layout.js
+"GET /platform.css HTTP/1.1" 404 2590
+Not Found: /libs/jquery/dateField/jquery.dateField.css
+"GET /libs/layout.js HTTP/1.1" 404 2596
+Not Found: /libs/jquery/valueSlider/jquery.mb.slider.js
+"GET /libs/jquery/dateField/jquery.dateField.js HTTP/1.1" 404 2677
+"GET /libs/jquery/valueSlider/jquery.mb.slider.js HTTP/1.1" 404 2683
+"GET /libs/jquery/dateField/jquery.dateField.css HTTP/1.1" 404 2680
+Not Found: /libs/jquery/jquery.timers.js
+Not Found: /libs/jquery/jquery.livequery.1.1.1.min.js
+Not Found: /libs/forms.js
+"GET /libs/jquery/jquery.timers.js HTTP/1.1" 404 2638
+- Broken pipe from ('127.0.0.1', 56162)
+"GET /libs/jquery/jquery.livequery.1.1.1.min.js HTTP/1.1" 404 2677
+Not Found: /libs/utilities.js
+"GET /libs/forms.js HTTP/1.1" 404 2593
+Not Found: /libs/jquery/svg/jquery.svg.min.js
+Not Found: /libs/date.js
+"GET /libs/utilities.js HTTP/1.1" 404 2605
+"GET /libs/jquery/svg/jquery.svg.min.js HTTP/1.1" 404 2653
+- Broken pipe from ('127.0.0.1', 56160)
+"GET /libs/date.js HTTP/1.1" 404 2590
+- Broken pipe from ('127.0.0.1', 56300)
+Not Found: /libs/dialogs.js
+Not Found: /libs/i18nJs.js
+Not Found: /libs/jquery/JST/jquery.JST.js
+"GET /libs/dialogs.js HTTP/1.1" 404 2599
+"GET /libs/jquery/JST/jquery.JST.js HTTP/1.1" 404 2641
+"GET /libs/i18nJs.js HTTP/1.1" 404 2596
+Not Found: /libs/jquery/svg/jquery.svgdom.1.8.js
+Not Found: /ganttUtilities.js
+Not Found: /ganttTask.js
+"GET /libs/jquery/svg/jquery.svgdom.1.8.js HTTP/1.1" 404 2662
+"GET /ganttUtilities.js HTTP/1.1" 404 2605
+"GET /ganttTask.js HTTP/1.1" 404 2590
+Not Found: /ganttGridEditor.js
+"GET /ganttGridEditor.js HTTP/1.1" 404 2608
+Not Found: /ganttDrawerSVG.js
+Not Found: /ganttZoom.js
+"GET /ganttZoom.js HTTP/1.1" 404 2590
+"GET /ganttDrawerSVG.js HTTP/1.1" 404 2605
+Not Found: /ganttMaster.js
+"GET /ganttMaster.js HTTP/1.1" 404 2596
+Not Found: /ganttPrint.css
+Not Found: /libs/jquery/valueSlider/mb.slider.css
+"GET /ganttPrint.css HTTP/1.1" 404 2596
+"GET /libs/jquery/valueSlider/mb.slider.css HTTP/1.1" 404 2665
+Not Found: /gantt.css
+Not Found: /platform.css
+Not Found: /libs/jquery/dateField/jquery.dateField.css
+Not Found: /ganttPrint.css
+Not Found: /libs/jquery/valueSlider/mb.slider.css
+"GET /gantt.css HTTP/1.1" 404 2581
+"GET /platform.css HTTP/1.1" 404 2590
+"GET /libs/jquery/dateField/jquery.dateField.css HTTP/1.1" 404 2680
+"GET /ganttPrint.css HTTP/1.1" 404 2596
+"GET /libs/jquery/valueSlider/mb.slider.css HTTP/1.1" 404 2665
+"GET / HTTP/1.1" 200 39868
+Not Found: /libs/jquery/jquery.livequery.1.1.1.min.js
+Not Found: /platform.css
+Not Found: /gantt.css
+Not Found: /libs/jquery/jquery.timers.js
+Not Found: /libs/jquery/dateField/jquery.dateField.css
+Not Found: /libs/utilities.js
+"GET /libs/jquery/jquery.livequery.1.1.1.min.js HTTP/1.1" 404 2677
+"GET /platform.css HTTP/1.1" 404 2590
+"GET /gantt.css HTTP/1.1" 404 2581
+"GET /libs/jquery/jquery.timers.js HTTP/1.1" 404 2638
+- Broken pipe from ('127.0.0.1', 56303)
+"GET /libs/jquery/dateField/jquery.dateField.css HTTP/1.1" 404 2680
+"GET /libs/utilities.js HTTP/1.1" 404 2605
+- Broken pipe from ('127.0.0.1', 56148)
+Not Found: /libs/date.js
+"GET /libs/date.js HTTP/1.1" 404 2590
+Not Found: /libs/forms.js
+Not Found: /libs/dialogs.js
+Not Found: /libs/jquery/svg/jquery.svgdom.1.8.js
+Not Found: /libs/jquery/svg/jquery.svg.min.js
+"GET /libs/forms.js HTTP/1.1" 404 2593
+- Broken pipe from ('127.0.0.1', 56304)
+"GET /libs/dialogs.js HTTP/1.1" 404 2599
+Not Found: /libs/layout.js
+"GET /libs/jquery/svg/jquery.svgdom.1.8.js HTTP/1.1" 404 2662
+- Broken pipe from ('127.0.0.1', 57245)
+- Broken pipe from ('127.0.0.1', 56301)
+"GET /libs/jquery/svg/jquery.svg.min.js HTTP/1.1" 404 2653
+"GET /libs/layout.js HTTP/1.1" 404 2596
+Not Found: /libs/i18nJs.js
+"GET /libs/i18nJs.js HTTP/1.1" 404 2596
+- Broken pipe from ('127.0.0.1', 57242)
+Not Found: /libs/jquery/dateField/jquery.dateField.js
+Not Found: /libs/jquery/JST/jquery.JST.js
+Not Found: /libs/jquery/valueSlider/jquery.mb.slider.js
+Not Found: /ganttUtilities.js
+"GET /libs/jquery/dateField/jquery.dateField.js HTTP/1.1" 404 2677
+"GET /libs/jquery/JST/jquery.JST.js HTTP/1.1" 404 2641
+Not Found: /ganttTask.js
+"GET /libs/jquery/valueSlider/jquery.mb.slider.js HTTP/1.1" 404 2683
+- Broken pipe from ('127.0.0.1', 57247)
+"GET /ganttUtilities.js HTTP/1.1" 404 2605
+"GET /ganttTask.js HTTP/1.1" 404 2590
+Not Found: /ganttDrawerSVG.js
+"GET /ganttDrawerSVG.js HTTP/1.1" 404 2605
+Not Found: /ganttGridEditor.js
+Not Found: /ganttZoom.js
+"GET /ganttGridEditor.js HTTP/1.1" 404 2608
+Not Found: /ganttMaster.js
+"GET /ganttZoom.js HTTP/1.1" 404 2590
+"GET /ganttMaster.js HTTP/1.1" 404 2596
+Not Found: /libs/jquery/valueSlider/mb.slider.css
+Not Found: /ganttPrint.css
+"GET /libs/jquery/valueSlider/mb.slider.css HTTP/1.1" 404 2665
+"GET /ganttPrint.css HTTP/1.1" 404 2596
+C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\manufacturing_schedule\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\manufacturing_schedule\schedule\views.py", line 50, in schedule_display
+    return render(request, 'schedule/schedule_timeline.html', context)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\loader_tags.py", line 197, in render
+    template = context.template.engine.select_template(template_name)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\engine.py", line 206, in select_template
+    return self.get_template(template_name)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\opti6\OneDrive\Documents\mfg-production-schedule-django\mfg-production-schedule-django\venv\lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'static'. Did you forget to register or load this tag?
+"GET / HTTP/1.1" 500 364193
+"GET / HTTP/1.1" 200 40055
+Not Found: /libs/jquery/dateField/jquery.dateField.css
+"GET /libs/jquery/dateField/jquery.dateField.css HTTP/1.1" 404 2680
+Not Found: /platform.css
+"GET /platform.css HTTP/1.1" 404 2590
+"GET /static/gantt.css HTTP/1.1" 200 15183
+Not Found: /platform.css
+"GET /platform.css HTTP/1.1" 404 2590
+"GET /static/libs/jquery/jquery.timers.js HTTP/1.1" 200 3182
+"GET /static/libs/jquery/jquery.livequery.1.1.1.min.js HTTP/1.1" 200 3020
+"GET /static/libs/dialogs.js HTTP/1.1" 200 12459
+"GET /static/libs/layout.js HTTP/1.1" 200 6811
+"GET /static/libs/i18nJs.js HTTP/1.1" 200 5943
+Not Found: /libs/jquery/dateField/jquery.dateField.css
+"GET /libs/jquery/dateField/jquery.dateField.css HTTP/1.1" 404 2680
+"GET /static/libs/jquery/JST/jquery.JST.js HTTP/1.1" 200 4995
+"GET /static/libs/jquery/dateField/jquery.dateField.js HTTP/1.1" 200 12193
+"GET /static/libs/jquery/valueSlider/jquery.mb.slider.js HTTP/1.1" 200 8541
+"GET /static/libs/date.js HTTP/1.1" 200 27611
+"GET /static/libs/jquery/svg/jquery.svg.min.js HTTP/1.1" 200 20130
+"GET /static/ganttUtilities.js HTTP/1.1" 200 19243
+"GET /static/libs/jquery/svg/jquery.svgdom.1.8.js HTTP/1.1" 200 12546
+"GET /static/libs/utilities.js HTTP/1.1" 200 13125
+"GET /static/libs/forms.js HTTP/1.1" 200 19962
+"GET /static/ganttTask.js HTTP/1.1" 200 38450
+"GET /static/ganttZoom.js HTTP/1.1" 200 9942
+"GET /static/ganttDrawerSVG.js HTTP/1.1" 200 37866
+"GET /static/ganttGridEditor.js HTTP/1.1" 200 25440
+"GET /static/ganttMaster.js HTTP/1.1" 200 52706
+"GET /static/ganttPrint.css HTTP/1.1" 200 936
+"GET /static/libs/jquery/valueSlider/mb.slider.css HTTP/1.1" 200 2116
+"GET /static/res/ganttSplitterGrip.png HTTP/1.1" 200 960
+"GET /static/res/toggle_collapse.png HTTP/1.1" 200 444
+Not Found: /res/hasExternalDeps.png
+Not Found: /res/twGanttLogo.png
+"GET /res/hasExternalDeps.png HTTP/1.1" 404 2623
+"GET /res/twGanttLogo.png HTTP/1.1" 404 2611
+Not Found: /res/hasExternalDeps.png
+"GET /res/hasExternalDeps.png HTTP/1.1" 404 2623
+Not Found: /res/linkArrow.png
+"GET /res/linkArrow.png HTTP/1.1" 404 2605
+Not Found: /res/linkArrow.png
+"GET /res/linkArrow.png HTTP/1.1" 404 2605
+"GET / HTTP/1.1" 200 40071
+"GET /static/libs/jquery/dateField/jquery.dateField.css HTTP/1.1" 200 1912
+"GET /static/platform.css HTTP/1.1" 200 14497
+Not Found: /res/twGanttLogo.png
+Not Found: /res/hasExternalDeps.png
+"GET /res/twGanttLogo.png HTTP/1.1" 404 2611
+"GET /res/hasExternalDeps.png HTTP/1.1" 404 2623
+"GET /static/res/icons.woff?5qjga5 HTTP/1.1" 200 13416
+Not Found: /res/hasExternalDeps.png
+"GET /res/hasExternalDeps.png HTTP/1.1" 404 2623
+Not Found: /res/linkArrow.png
+"GET /res/linkArrow.png HTTP/1.1" 404 2605
+"GET / HTTP/1.1" 200 40080
+Not Found: /res/hasExternalDeps.png
+Not Found: /res/twGanttLogo.png
+"GET /res/hasExternalDeps.png HTTP/1.1" 404 2623
+"GET /res/twGanttLogo.png HTTP/1.1" 404 2611
+Not Found: /res/hasExternalDeps.png
+"GET /res/hasExternalDeps.png HTTP/1.1" 404 2623
+Not Found: /res/linkArrow.png
+"GET /res/linkArrow.png HTTP/1.1" 404 2605
+"GET /static/res/toggle-expand.png HTTP/1.1" 200 506
+Not Found: /res/linkArrow.png
+"GET /res/linkArrow.png HTTP/1.1" 404 2605
+Not Found: /res/linkArrow.png
+"GET /res/linkArrow.png HTTP/1.1" 404 2605
+Not Found: /res/linkArrow.png
+"GET /res/linkArrow.png HTTP/1.1" 404 2605
+Not Found: /res/linkArrow.png
+"GET /res/linkArrow.png HTTP/1.1" 404 2605

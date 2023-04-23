@@ -1,6 +1,7 @@
 from django.db import models
 from projects.models import Projects
 from bom.models import BOM, LineItemPart, Parts
+from django.core.validators import MinValueValidator, MaxValueValidator
 
 # Create your models here.
 class Release(models.Model):
@@ -47,3 +48,28 @@ class ScheduleItems(models.Model):
 
     def __str__(self):
         return str(self.routing) + ' - ' + str(self.schedule_part) + ' - ' + str(self.schedule_release) + ' - ' + str(self.work_datetime)
+    
+class RouteTask(models.Model):
+
+    class Routing(models.Choices):
+        LASER = 1
+        WELD = 2
+        PRESS = 3
+        MACHINE = 4
+        CUT = 5
+        PAINT = 6
+    
+    class Status(models.Choices):
+        STATUS_ACTIVE = 1
+        STATUS_SUSPENDED = 2
+        STATUS_DONE = 3
+        STATUS_UNDEFINED = 4
+
+    route_type = models.IntegerField(choices=Routing.choices, null=True, blank=True)
+    schedule_items = models.ManyToManyField(ScheduleItems, related_name="routes_schedule_items")
+    start_date = models.DateField(null=True, blank=True)
+    end_date = models.DateField(null=True, blank=True)
+    predecessor_routes = models.ManyToManyField('self', related_name="routes_pred_routes")
+    percent_complete = models.IntegerField(validators=[MinValueValidator(0), MaxValueValidator(100)])
+    release = models.ForeignKey(Release,on_delete=models.CASCADE, related_name="routes_release", null=True)
+    status = models.IntegerField(choices=Status.choices, null=True, blank=True)
